@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Degradado de rojo oscuro a azul oscuro */
+    color: white; /* Texto en blanco para mejor contraste */
+    margin: 0; /* Eliminar el margen predeterminado del body */
+    height: 100vh; /* Asegurar que el body ocupe toda la altura de la ventana */
+}
+
+.container {
+    background-color: transparent; /* Fondo transparente para que coincida con el color de fondo de la interfaz */
+    margin-top: 50px; /* Espaciado superior */
+    padding: 10px; /* Relleno interno reducido */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin-left: auto; /* Centrar el contenedor horizontalmente */
+    margin-right: auto; /* Centrar el contenedor horizontalmente */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espacio inferior para el título */
+    font-size: 24px; /* Tamaño de fuente del título */
+}
+
+.btn-evaluar {
+    background: linear-gradient(135deg, #8B0000, #00008B); /* Degradado de rojo oscuro a azul oscuro para el botón */
+    border: none; /* Sin borde */
+    font-size: 14px; /* Tamaño de fuente más pequeño para el botón */
+    padding: 8px 12px; /* Relleno interno del botón reducido */
+    color: white; /* Color de texto blanco */
+    cursor: pointer; /* Cambiar cursor a puntero en hover */
+}
+
+.btn-evaluar:hover {
+    opacity: 0.9; /* Efecto al pasar el mouse por encima */
+}
